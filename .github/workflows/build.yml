@@ -550,9 +550,6 @@ jobs:
         CONFIG_IP_SET_LIST_SET=y
 
         #addon
-        CONFIG_PREEMPT=y
-        CONFIG_PREEMPT_VOLUNTARY=n
-        CONFIG_PREEMPT_NONE=n
         CONFIG_ZSMALLOC=y
         CONFIG_ZSMALLOC_STAT=n
         CONFIG_RCU_EXPERT=y
