@@ -550,24 +550,9 @@ jobs:
         CONFIG_IP_SET_LIST_SET=y
 
         #addon
-        CONFIG_RCU_EXPERT=y
-        CONFIG_RCU_TRACE=n
         CONFIG_SCHED_AUTOGROUP=y
-        CONFIG_SCHED_CORE=y
         CONFIG_SCHEDSTATS=n
-        CONFIG_ARM_CPUIDLE=y
-        CONFIG_NETFILTER_XT_MATCH_OWNER=y
-        CONFIG_TCP_FASTOPEN=y
-        CONFIG_F2FS_STAT_FS=n
-        CONFIG_IOSCHED_NONE=y
-        CONFIG_IOSCHED_BFQ=n
-        CONFIG_DEBUG_KERNEL=n
-        CONFIG_DEBUG_INFO=n
-        CONFIG_KALLSYMS=n
-        CONFIG_LOCKDEP=n
-        CONFIG_PROVE_LOCKING=n
-        CONFIG_DEBUG_PREEMPT=n
-        
+        CONFIG_RCU_TRACE=n
         
         EOF
 
