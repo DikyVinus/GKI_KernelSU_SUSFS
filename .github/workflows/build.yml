@@ -510,6 +510,8 @@ jobs:
         # KernelSU Configuration
         CONFIG_KSU=y
         CONFIG_KSU_SUSFS=y
+        CONFIG_HZ_PERIODIC=y
+        CONFIG_HZ_1000=y
         
 
         # Mountify Support
