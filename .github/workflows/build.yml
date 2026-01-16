@@ -550,8 +550,6 @@ jobs:
         CONFIG_IP_SET_LIST_SET=y
 
         #addon
-        CONFIG_ZSMALLOC=y
-        CONFIG_ZSMALLOC_STAT=n
         CONFIG_RCU_EXPERT=y
         CONFIG_RCU_TRACE=n
         CONFIG_SCHED_AUTOGROUP=y
